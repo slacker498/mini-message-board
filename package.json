@@ -1,0 +1,24 @@
+{
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/slacker498/mini-message-board#readme",
+  "bugs": {
+    "url": "https://github.com/slacker498/mini-message-board/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slacker498/mini-message-board.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Message Board</title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <%- include('header', {title: title}) %>
+    <a href="/">Back</a>
+    <h2>Message Details</h2>
+    <ul>
+        <li>User: <%= message.user %></li>
+        <li>Text: <%= message.text %></li>
+        <li>Date: <%= message.added %></li>
+    </ul>
+
+</body>
+</html>

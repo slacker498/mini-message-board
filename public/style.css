@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+body {
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+header nav{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    font-weight: bold;
+    background-color: rgb(29, 153, 236);
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+form {
+    display: grid;
+    width: 70vw;
+    gap: 5px;
+    margin: auto;
+}
+
+textarea {
+    min-height: 200px;
+}

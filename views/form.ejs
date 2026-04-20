@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Message Board</title>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <%- include('header', {title: title}) %>
+    <h2>Post a message</h2>
+    <form action="/new" method="POST">
+        <label for="author">Author: </label>
+        <input type="text" name="author" id="author">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
