@@ -9,7 +9,7 @@ const postMessage = async (req, res) => {
     const { author, message } = matchedData(req);
     const added = new Date();
 
-    await pool.query("INSERT INTO messages (text, username, added) VALUES ($1, $2, $3)", [message, author, added.toISOString().substring(0,10)]);
+    await pool.query("INSERT INTO messages (text, username, added) VALUES ($1, $2, $3)", [message, author, added.toISOString()]);
     res.redirect('/');
 }
 
