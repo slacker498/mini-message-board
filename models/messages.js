@@ -1,3 +1,5 @@
+// This messages array is deprecated. A PostgreSQL server is used in its place.
+
 const messages = [
   {
     text: "Hi there!",

@@ -12,10 +12,10 @@
         <% messages.forEach( (message, idx) => {  %>
             <li>
                 <ul>
-                    <li>User: <%= message.user %></li>
+                    <li>User: <%= message.username %></li>
                     <li>Text: <%= message.text %></li>
-                    <li>Date: <%= message.added %></li>
-                    <button><a href="/message/<%= idx%>">Open</a></button>
+                    <li>Date: <%= message.added.toString().substring(0, 24) %></li>
+                    <button><a href="/message/<%= idx+1%>">Open</a></button>
                 </ul>
             </li>
         <% }) %>

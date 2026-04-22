@@ -1,3 +1,5 @@
+// This module is deprecated and is replaced with the messagesDBController.js
+
 import { messages } from "../models/messages.js";
 
 const postMessage = (req, res) => {

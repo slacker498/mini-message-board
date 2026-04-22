@@ -22,7 +22,7 @@ app.use('/message/', messageDetails);
 // Handle 404 error
 app.get("/{*splat}", (req, res) => res.render('404')); 
 
-app.listen(3000, (error) => {
-    console.log("App is running on localhost at port 3000!");
+app.listen(8000, (error) => {
+    console.log("App is running on localhost at port 8000!");
     if (error) console.log(error);
 })
